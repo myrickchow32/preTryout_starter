@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
   var tipPercentage = 0
 
   val KEY_TIP_PERCENTGE = "KEY_TIP_PERCENTGE"
-  val KEY_BILL_AMOUNT = "KEY_BILL_AMOUNT"
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
