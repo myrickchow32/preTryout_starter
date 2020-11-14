@@ -8,6 +8,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+  var billAmount = 0.0
+  var tipPercentage = 0
+
+  val KEY_TIP_PERCENTGE = "KEY_TIP_PERCENTGE"
+  val KEY_BILL_AMOUNT = "KEY_BILL_AMOUNT"
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
